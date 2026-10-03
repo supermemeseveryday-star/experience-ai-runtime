@@ -9,6 +9,8 @@
 
 **[简体中文](README_zh.md)**
 
+If reusable local experience is useful to you, a star or a small, focused contribution helps others find and improve the project.
+
 Experience AI Runtime is an experimental, local-first reasoning layer for Ollama. It retrieves compact problem-solving experiences from SQLite, checks whether they apply, and chooses to reuse, adapt, or solve with a local model. Memory and routing stay independent from model weights.
 
 > **This is an application framework, not a new set of Qwen weights.** Ollama runs the model; Experience AI handles retrieval, routing, reviewable memory, and metrics.

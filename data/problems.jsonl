@@ -1,0 +1,45 @@
+{"id": "problem_001", "question": "How do I create and activate a Python virtual environment?"}
+{"id": "problem_002", "question": "How can I install a package inside a Python virtual environment?"}
+{"id": "problem_003", "question": "What does ModuleNotFoundError usually mean and how do I fix it?"}
+{"id": "problem_004", "question": "How do I read a JSON file in Python?"}
+{"id": "problem_005", "question": "How can I catch an exception in Python?"}
+{"id": "problem_006", "question": "How do I install dependencies from package.json?"}
+{"id": "problem_007", "question": "How do I check the installed Node.js and npm versions?"}
+{"id": "problem_008", "question": "What should I do when npm reports a missing package?"}
+{"id": "problem_009", "question": "How do I run a script defined in package.json?"}
+{"id": "problem_010", "question": "How do I initialize a new npm project?"}
+{"id": "problem_011", "question": "How do I check disk space on Linux?"}
+{"id": "problem_012", "question": "How do I find which process uses a port on Linux?"}
+{"id": "problem_013", "question": "How do I inspect permissions on a file?"}
+{"id": "problem_014", "question": "How do I search for text in files from a Linux terminal?"}
+{"id": "problem_015", "question": "How do I check the current directory and list hidden files?"}
+{"id": "problem_016", "question": "How do I convert an MP4 video to an MP3 audio file with FFmpeg?"}
+{"id": "problem_017", "question": "How do I resize a video while preserving its aspect ratio using FFmpeg?"}
+{"id": "problem_018", "question": "How do I extract one frame from a video using FFmpeg?"}
+{"id": "problem_019", "question": "How do I convert a landscape video to vertical 9:16?"}
+{"id": "problem_020", "question": "How can I inspect a video file before converting it?"}
+{"id": "problem_021", "question": "How do I see the changes I have made in Git?"}
+{"id": "problem_022", "question": "How do I create a new Git branch?"}
+{"id": "problem_023", "question": "How do I undo the last commit but keep my changes?"}
+{"id": "problem_024", "question": "How do I update my local branch from the remote?"}
+{"id": "problem_025", "question": "How do I resolve a Git merge conflict?"}
+{"id": "problem_026", "question": "How do I list running Docker containers?"}
+{"id": "problem_027", "question": "How do I build an image from a Dockerfile?"}
+{"id": "problem_028", "question": "How do I view logs for a Docker container?"}
+{"id": "problem_029", "question": "How do I stop and remove a Docker container?"}
+{"id": "problem_030", "question": "How do I check whether Docker is running?"}
+{"id": "problem_031", "question": "What is 15 percent of 240?"}
+{"id": "problem_032", "question": "How do I solve 2x + 5 = 17?"}
+{"id": "problem_033", "question": "What is the average of 8, 10, and 12?"}
+{"id": "problem_034", "question": "A command says command not found. What should I check first?"}
+{"id": "problem_035", "question": "An application cannot connect to localhost. How should I troubleshoot it?"}
+{"id": "problem_036", "question": "I get ModuleNotFoundError when running Python; what should I check?"}
+{"id": "problem_037", "question": "How do I make an existing horizontal video fit a 9:16 social media frame?"}
+{"id": "problem_038", "question": "How can I create a branch and switch to it in Git?"}
+{"id": "problem_039", "question": "How can I find files containing a particular word on Linux?"}
+{"id": "problem_040", "question": "Where can I find the output logs from a running Docker container?"}
+{"id": "problem_041", "question": "How do I install a specific dependency into my Node project?"}
+{"id": "problem_042", "question": "How do I use a venv to isolate project dependencies?"}
+{"id": "problem_043", "question": "How can I resize an MP4 without stretching its image?"}
+{"id": "problem_044", "question": "How do I inspect unstaged and staged Git changes?"}
+{"id": "problem_045", "question": "How can I see available filesystem space on my Linux machine?"}

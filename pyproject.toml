@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "experience-ai-runtime"
+version = "0.1.0"
+description = "Local-first adaptive reasoning runtime with persistent verified experiences"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+keywords = ["local-ai", "ollama", "qwen", "experience-memory", "adaptive-reasoning", "retrieval"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Framework :: FastAPI",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = ["fastapi>=0.110", "uvicorn[standard]>=0.27", "pydantic>=2.6", "SQLAlchemy>=2.0", "numpy>=1.26", "httpx>=0.27", "PyYAML>=6.0", "typer>=0.12", "python-dotenv>=1.0"]
+
+[project.urls]
+Homepage = "https://github.com/supermemeseveryday-star/experience-ai-runtime"
+Repository = "https://github.com/supermemeseveryday-star/experience-ai-runtime"
+Issues = "https://github.com/supermemeseveryday-star/experience-ai-runtime/issues"
+Roadmap = "https://github.com/supermemeseveryday-star/experience-ai-runtime/blob/main/docs/ROADMAP.md"
+
+[project.optional-dependencies]
+embeddings = ["sentence-transformers>=3.0"]
+test = ["pytest>=8.0", "pytest-asyncio>=0.23", "httpx>=0.27"]
+dev = ["ruff>=0.11"]
+
+[project.scripts]
+experience-ai = "experience_ai.cli.commands:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+asyncio_mode = "auto"

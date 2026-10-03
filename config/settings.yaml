@@ -1,0 +1,25 @@
+model:
+  provider: ollama
+  model: experience-ai
+  base_url: http://localhost:11434
+  temperature: 0.2
+embedding:
+  model: sentence-transformers/all-MiniLM-L6-v2
+retrieval:
+  top_k: 5
+  deduplication_threshold: 0.92
+applicability:
+  reuse_threshold: 0.90
+  partial_threshold: 0.65
+  similarity_weight: 0.35
+  condition_weight: 0.25
+  confidence_weight: 0.20
+  success_weight: 0.15
+  freshness_weight: 0.05
+runtime:
+  default_mode: adaptive
+memory:
+  auto_save: true
+  auto_consolidate: false
+database:
+  path: data/experience.db

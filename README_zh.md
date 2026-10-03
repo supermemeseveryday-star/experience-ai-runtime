@@ -20,7 +20,7 @@ Experience AI Runtime 是一个实验性的本地优先推理框架，适配 Oll
 
 ## 快速开始
 
-需要 Python 3.11+、[Ollama](https://ollama.com/) 和一个本地 Qwen 模型。下面以 `qwen3:4b-instruct` 为例，也可以在 `config/settings.yaml` 修改 `model.model` 使用其他已安装模型。
+需要 Python 3.11+、[Ollama](https://ollama.com/) 和一个本地 Qwen 模型。本项目使用 `qwen3.8:27b-mtp-q4_K_M`（约 18 GB，Q4），Modelfile 将上下文设为 32K，以便在 64 GB Mac 上更实际地运行。注意：这是 Qwen3.8 27B，并非更大的 125B Flash-Next。
 
 ```bash
 git clone https://github.com/supermemeseveryday-star/experience-ai-runtime.git
@@ -31,7 +31,7 @@ pip install -e '.[test]'
 
 # 在另一个终端启动 Ollama，并明确安装本地模型
 ollama serve
-ollama pull qwen3:4b-instruct
+ollama pull qwen3.8:27b-mtp-q4_K_M
 
 # 创建本地 Experience AI Ollama 别名并检查环境
 ollama create experience-ai -f Modelfile

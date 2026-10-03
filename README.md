@@ -21,7 +21,7 @@ Repeated problems often trigger repeated model calls. A verified experience can 
 
 ## Quick start
 
-Requirements: Python 3.11+, [Ollama](https://ollama.com/), and a local Qwen model. The example below uses `qwen3:4b-instruct`; choose another installed model by changing `model.model` in `config/settings.yaml`.
+Requirements: Python 3.11+, [Ollama](https://ollama.com/), and a local Qwen model. This checkout uses the Ollama model `qwen3.8:27b-mtp-q4_K_M` (about 18 GB, Q4); the Modelfile sets a 32K context for a more practical memory footprint on a 64 GB Mac. This is the 27B Qwen3.8 model, not the much larger 125B Flash-Next variant.
 
 ```bash
 # Clone the repository
@@ -35,7 +35,7 @@ pip install -e '.[test]'
 
 # Start Ollama in another terminal, then install the model explicitly
 ollama serve
-ollama pull qwen3:4b-instruct
+ollama pull qwen3.8:27b-mtp-q4_K_M
 
 # Build the local Experience AI Ollama alias and check the setup
 ollama create experience-ai -f Modelfile
